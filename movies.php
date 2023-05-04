@@ -4,7 +4,11 @@ class Movies {
     public $year;
     public $vote;
 
-   
+    public function __construct($name)
+    {
+        $this ->name= $name;
+
+    }
     
 
     public function getTheVote(){
@@ -13,14 +17,14 @@ class Movies {
 
 }
 // esempio movie numero 1
-$django = new Movies();
-$django ->name = "Django Unchained";
+$django = new Movies("Django Unchained");
+
 $django ->year = "(2017)";
 $django ->vote = "8.6 IMdB";
 
 // esempio movie numero 2
-$titanic = new Movies();
-$titanic ->name = "Titanic";
+$titanic = new Movies("Titanic");
+
 $titanic ->year = "(1999)";
 $titanic ->vote = "9.2 IMdB";
 
