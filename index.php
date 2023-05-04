@@ -36,11 +36,18 @@ include 'movies.php';
             <h1>My movies list</h1>
           </div>
         </div>
-
-
-
       </div>
     </header>
+
+    <div class="container text-center my-4">
+            <?php 
+           
+            echo  $django->getTheVote(); 
+            echo "<br>";
+            echo $titanic->getTheVote(); 
+            ?>
+            
+        </div>
 
 
 
