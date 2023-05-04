@@ -19,6 +19,15 @@
 </head>
 <body>
     <h1>prova</h1>
+    <div id="app">{{ message }}</div>
+   
     
+
+
+
+
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>
