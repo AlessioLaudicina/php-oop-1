@@ -1,5 +1,13 @@
-
-
+<!-- Oggi pomeriggio ripassate i primi concetti di classe, variabili e
+ metodi d’istanza che abbiamo visto stamattina e create un file index.php in cui:
+ - è definita una classe ‘Movie’
+   => all’interno della classe sono dichiarate delle variabili d’istanza
+   => all’interno della classe è definito un costruttore
+   => all’interno della classe è definito almeno un metodo
+- vengono istanziati almeno due oggetti ‘Movie’ e stampati a schermo i valori delle relative proprietà -->
+<?php 
+include 'movies.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,8 +26,29 @@
       <title>Movies</title>
 </head>
 <body>
-    <h1>prova</h1>
-    <div id="app">{{ message }}</div>
+    
+    <div id="app">
+
+    <header class="bg-dark">
+      <div class="container d-flex align-items-center justify-content-center py-2">
+        <div div class="row text-white">
+          <div class="col">
+            <h1>My movies list</h1>
+          </div>
+        </div>
+
+
+
+      </div>
+    </header>
+
+
+
+
+
+
+
+    </div>
    
     
 
