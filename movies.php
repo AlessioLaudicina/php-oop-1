@@ -4,6 +4,9 @@ class Movies {
     public $year;
     public $vote;
 
+   
+    
+
     public function getTheVote(){
         return $this -> name . ' ' .$this ->year. '  ' .$this ->vote;
     }

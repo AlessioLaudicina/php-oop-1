@@ -40,6 +40,7 @@ include 'movies.php';
     </header>
 
     <div class="container text-center my-4">
+      
             <?php 
            
             echo  $django->getTheVote(); 
